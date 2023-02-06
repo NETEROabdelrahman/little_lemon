@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   text-transform: capitalize;
+  transition: 0.3s;
 }
 
 header img{
@@ -15,14 +16,38 @@ a{
   color: black;
   font-weight: bold;
 }
-/* .container{
-margin: auto 100px;
-} */
-main{
+
+main:first-of-type{
   background-color: #eee;
   padding: 20px;
+}
+main:nth-of-type(2){
+  
+  padding: 20px;
+  margin: 10px;
 }
 main img{
   width: 300px;
   margin: 20px;
+}
+.Testemonials{
+  background-color: #eee;
+}
+.Testemonials img{
+width: 100px;
+border-radius: 50%;
+}
+.Testemonials i{
+  color: rgb(255, 234, 0);
+}
+footer{
+  background-color: #eee;
+}
+footer img{
+width: 300px;
+height: 500px;
+}
+.form{
+  max-width: 200px;
+  gap: 20px;
 }

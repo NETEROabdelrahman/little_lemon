@@ -24,7 +24,7 @@ const Header = () => {
                   <Link className="nav-link" to='menu'>menu</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link " to='reservation'>reservation</Link>
+                  <Link className="nav-link " to='bookingPage'>reservation</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link " to='order-online'>order online</Link>
